@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487181785633",
+    "project_id": "chatapppmu-4876d",
+    "storage_bucket": "chatapppmu-4876d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487181785633:android:02d31d81e99f81a691a160",
+        "android_client_info": {
+          "package_name": "com.example.chataplikacijapmu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBprOCESqQY0XpDVo72IG0XwdXfyvTKHS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
