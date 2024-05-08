@@ -24,20 +24,10 @@ class AuthentificationActivity : AppCompatActivity() {
 
         editTextEmail = findViewById(R.id.Email)
         editTextPassword = findViewById(R.id.Password)
-        buttonAction = findViewById(R.id.Action)
-        buttonToggle = findViewById(R.id.Toggle)
+        buttonAction = findViewById(R.id.Register)
+        buttonToggle = findViewById(R.id.Login)
 
         firebaseAuth = FirebaseAuth.getInstance()
-
-        buttonAction.setOnClickListener {
-            if (isRegisterMode) {
-                // Registracija korisnika
-                registerUser()
-            } else {
-                // Prijava korisnika
-                loginUser()
-            }
-        }
 
         buttonToggle.setOnClickListener {
             toggleMode()

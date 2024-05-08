@@ -32,4 +32,12 @@
         android:textColor="@android:color/black"
         android:hint="Sadržaj poruke" />
 
+
+    <Button
+        android:id="@+id/ObrisiPoruku"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Obrisi" />
+
+
 </LinearLayout>
